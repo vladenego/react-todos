@@ -1,0 +1,19 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel serve src/index.html",
+    "build": "npx parcel build src/index.html",
+    "format": "npx prettier --write './!(node_modules|dist)/**/*.{js,jsx}'"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "prettier": "^1.19.1"
+  }
+}
